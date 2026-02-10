@@ -107,7 +107,7 @@ export default function HeroSection() {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            DENJAKA
+            <TypingText text="DENJAKA" speed={120} loop pauseMs={2000} deleteSpeed={80} />
           </h1>
 
           <div
@@ -122,6 +122,7 @@ export default function HeroSection() {
             <TypingText
               text="Detasemen Jala Mangkara — Sea, Air, & Land Operations"
               speed={45}
+              loop
             />
           </div>
 
