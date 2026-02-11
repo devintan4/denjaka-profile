@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import denjakaLogo from '../assets/images/denjaka.png';
 
 const navLinks = [
   { label: 'Beranda', href: '#hero' },
@@ -51,6 +52,9 @@ export default function Navbar() {
         <a
           href="#hero"
           style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
             fontFamily: 'var(--font-display)',
             fontSize: '1.4rem',
             fontWeight: 800,
@@ -61,6 +65,11 @@ export default function Navbar() {
             textDecoration: 'none',
           }}
         >
+          <img
+            src={denjakaLogo}
+            alt="DENJAKA Logo"
+            style={{ width: 32, height: 32, objectFit: 'contain' }}
+          />
           DENJAKA
         </a>
 
