@@ -7,6 +7,7 @@ interface Personnel {
   jabatan: string;
   status: 'Active' | 'Inactive';
   unit: string;
+  discordId?: string;
 }
 
 const markasPersonnel: Personnel[] = [
@@ -16,13 +17,15 @@ const markasPersonnel: Personnel[] = [
     jabatan: 'Komandan Denjaka',
     status: 'Active',
     unit: 'Markas Besar Denjaka',
+    discordId: '464039858608930827',
   },
   {
     nama: 'Depinnzz',
     pangkat: 'Sersan Dua',
     jabatan: 'Wakil Komandan Denjaka',
-    status: 'Active',
+    status: 'Inactive',
     unit: 'Markas Besar Denjaka',
+    discordId: '434994715386052613',
   },
 ];
 
@@ -31,15 +34,17 @@ const terorPersonnel: Personnel[] = [
     nama: 'MYPUBG',
     pangkat: 'Kopral Satu',
     jabatan: 'Komandan Pendidikan',
-    status: 'Active',
+    status: 'Inactive',
     unit: 'Penanggulangan Teror Aspek Laut',
+    discordId: '851870083184590858',
   },
   {
     nama: 'BatuSakti',
     pangkat: 'Kelasi Satu',
     jabatan: 'Wakil Komandan Pendidikan',
-    status: 'Inactive',
+    status: 'Active',
     unit: 'Penanggulangan Teror Aspek Laut',
+    discordId: '342295994051854337',
   },
 ];
 
