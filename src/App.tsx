@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import RecruitmentSection from './components/RecruitmentSection'
 import ChainOfCommand from './components/ChainOfCommand'
+import GallerySection from './components/GallerySection'
 import Footer from './components/Footer'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <AboutSection />
       <RecruitmentSection />
       <ChainOfCommand />
+      <GallerySection />
       <Footer />
     </>
   )

@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'Tentang', href: '#about' },
   { label: 'Rekrutmen', href: '#recruitment' },
   { label: 'Struktur', href: '#coc' },
+  { label: 'Gallery', href: '#gallery' },
 ];
 
 export default function Navbar() {
