@@ -77,7 +77,7 @@ export default function AboutSection() {
           <h2 className="section-title">Tentang Denjaka</h2>
           <div className="section-divider" />
 
-          <p
+          <div
             style={{
               textAlign: 'center',
               maxWidth: 720,
@@ -87,11 +87,51 @@ export default function AboutSection() {
               color: 'var(--white-muted)',
             }}
           >
-            <strong style={{ color: 'var(--gold)' }}>Detasemen Jala Mangkara (DENJAKA)</strong> adalah
-            unit pasukan khusus elite di bawah naungan TNI Angkatan Laut. Dalam universe roleplay ini,
-            Denjaka bertugas melaksanakan operasi-operasi khusus berdimensi tiga — menguasai laut, udara,
-            dan darat — dengan presisi dan keberanian tanpa batas.
-          </p>
+            <p style={{ marginBottom: 24 }}>
+              <strong style={{ color: 'var(--gold)' }}>Detasemen Jala Mangkara (DENJAKA)</strong> adalah
+              pasukan elit TNI AL yang memiliki kemampuan trimatra (laut, udara, dan darat) terdiri dari
+              prajurit terbaik, bertugas dalam operasi:
+            </p>
+            <ul
+              style={{
+                listStyle: 'none',
+                padding: 0,
+                margin: 0,
+                display: 'inline-block',
+                textAlign: 'left',
+              }}
+            >
+              {[
+                'Penanggulangan terorisme maritim',
+                'Sabotase & kontra-sabotase',
+                'Infiltrasi bawah air',
+                'Boarding kapal',
+                'Kontra-penyusupan',
+              ].map((item) => (
+                <li
+                  key={item}
+                  style={{
+                    padding: '6px 0',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 10,
+                    fontSize: '0.95rem',
+                  }}
+                >
+                  <span
+                    style={{
+                      width: 8,
+                      height: 8,
+                      borderRadius: '50%',
+                      background: 'var(--gold)',
+                      flexShrink: 0,
+                    }}
+                  />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         {/* Capability cards */}

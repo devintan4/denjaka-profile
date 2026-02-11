@@ -140,7 +140,7 @@ export default function HeroSection() {
             Siap menjaga kedaulatan di lautan, udara, dan daratan.
           </p>
 
-          <a href="#about" className="btn-gold">
+          <a href="#recruitment" className="btn-gold">
             Bergabung Sekarang
             <svg
               width="18"
