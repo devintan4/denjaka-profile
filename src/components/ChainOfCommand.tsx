@@ -21,7 +21,7 @@ const markasPersonnel: Personnel[] = [
   },
   {
     nama: 'Depinnzz',
-    pangkat: 'Sersan Dua',
+    pangkat: 'Sersan Kepala',
     jabatan: 'Wakil Komandan Denjaka',
     status: 'Inactive',
     unit: 'Markas Besar Denjaka',
@@ -32,7 +32,7 @@ const markasPersonnel: Personnel[] = [
 const terorPersonnel: Personnel[] = [
   {
     nama: 'MYPUBG',
-    pangkat: 'Kopral Satu',
+    pangkat: 'Kopral Kepala',
     jabatan: 'Komandan Pendidikan',
     status: 'Inactive',
     unit: 'Penanggulangan Teror Aspek Laut',
